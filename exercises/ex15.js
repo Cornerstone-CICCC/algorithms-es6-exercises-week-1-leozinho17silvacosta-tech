@@ -11,4 +11,4 @@ The ageCalculator function should return a string explaining how old the person 
 function ageCalculator(name, yearOfBirth, currentYear) {
     return name + " is " + (currentYear - yearOfBirth) + " years old.";
 }
-console.log(ageCalculator("Larissa", 2004, 2025));
+console.log(ageCalculator("Elisangela", 1983, 2025));
