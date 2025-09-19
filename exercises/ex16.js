@@ -35,3 +35,19 @@ function makeLine(length) {
     }
     return line + "\n";
 }
+
+function buildTriangle(width) {
+  let triangle = "";
+
+  if (typeof width !== "number" || width < 1) {
+    return triangle;
+  }
+
+  for (let i = 1; i <= width; i++) {
+    triangle += makeLine(i);
+  }
+
+  return triangle;
+}
+
+console.log(buildTriangle(10));
