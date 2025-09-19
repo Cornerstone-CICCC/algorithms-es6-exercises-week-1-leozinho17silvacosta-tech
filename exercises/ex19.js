@@ -5,9 +5,13 @@ emotions("happy", laugh(2)); // you can use your laugh function from the previou
 Prints: "I am happy, haha!"
 */
 
-function emotions (message, name) {
-    message (name);
+function emotions (myString, myFunc) {
+    console.log("I am " + myString + ", " + myFunc(2));
 }
-    
-emotions("happy", function laugh(num) {
-    console.log(`I am happy, ${"ha".repeat(num)}!`);
+emotions ("happy", function (num) {
+    let laugh = "";
+    for (let i = 0; i < num; i++) {
+        laugh = laugh + "ha";
+    }
+    return laugh + "!";
+});
