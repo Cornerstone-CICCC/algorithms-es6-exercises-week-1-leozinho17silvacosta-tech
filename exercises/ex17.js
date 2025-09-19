@@ -4,3 +4,9 @@ Write an anonymous function expression that stores a function in a variable call
 laugh(3);
 Returns: hahaha!
 */
+
+function laugh(num) {
+const numberoflaughs = "ha!"(3);
+return numberoflaughs;
+}
+console.log(laugh(3));
