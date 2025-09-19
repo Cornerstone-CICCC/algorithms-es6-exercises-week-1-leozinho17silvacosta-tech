@@ -5,8 +5,13 @@ laugh(3);
 Returns: hahaha!
 */
 
-function laugh(num) {
-const numberoflaughs = "ha!"(3);
-return numberoflaughs;
-}
+
+const laugh = function(num) {
+   let word = "";
+    for (let i = 0; i < num; i++) {
+    word += "ha";
+   }
+
+return word + "!";
+} 
 console.log(laugh(3));
