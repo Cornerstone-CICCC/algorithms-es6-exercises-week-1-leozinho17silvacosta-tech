@@ -9,6 +9,14 @@ And under the third, write any loop, while or for that prints out each item of i
 
 const ingredients = ["eggs", "milk", "flour", "sugar", "baking soda", "baking powder", "chocolate chips", "bananas"];
 
-for (let i = 0, i )
-
-    study after class
+let i = 0;
+while (i < ingredients.lenght) {
+    console.log(ingredients[i]);
+    i++;
+}
+for (let a = 0; a < ingredients.lenght; a++) {
+    console.log(ingredients[a]);
+}
+for (let b = ingredients.length - 1; b >= 0; b--){
+    console.log(ingredients[b]);
+}
