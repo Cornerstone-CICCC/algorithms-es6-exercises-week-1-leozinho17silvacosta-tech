@@ -9,3 +9,9 @@ var mercenary = "Jayne";
 var mechanic = "Kaylee";
 Then, print the crew array to the console.
 */
+
+//              0      1      2       3        4        5
+const crew = ["Mal", second = "Zoe", pilot = "Wash", companion = "Inara", mercenary = "Jayne", mechanic = "Kaylee"];
+console.log(crew);
+
+

@@ -15,3 +15,21 @@ Chocolate donuts cost $2.45 each
 Cider donuts cost $1.59 each
 Boston Cream donuts cost $5.99 each
 */
+
+
+const products = [
+  { flavor: "Jelly", cost: 1.22 },
+  { flavor: "Chocolate", cost: 2.45 },
+  { flavor: "Cider", cost: 1.59 },
+  { flavor: "Boston Cream", cost: 5.99 }
+];
+
+console.table(products);
+
+function listProducts(arr) {
+  for (let i = 0; i < arr.length; i++) {
+    console.log(flavor + " donuts cost $" + arr[i].cost + " each");
+  } 
+} 
+
+console.table(products);
