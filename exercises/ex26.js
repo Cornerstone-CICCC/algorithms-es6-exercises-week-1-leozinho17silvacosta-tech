@@ -6,12 +6,12 @@ eggs, sausage, toast, hashbrowns, pancakes
 The object should contain properties for the name, price, and ingredients.
 */
 
-const breakfast = [
-    Name = "The Lumberjack",
-    price = 9.95,
-    ingredients = ["eggs", "sausage", "toast", "hashbrowns", "pancakes"
+const breakfast = {
 
-    ]   
-];
-console.table(breakfast); 
+    name: "The Lumberjack",
+    price: 9.95,
+    ingredients: ["eggs", "sausage", "toast", "hashbrowns", "pancakes"]   
+};
+
+console.log(breakfast); 
     
