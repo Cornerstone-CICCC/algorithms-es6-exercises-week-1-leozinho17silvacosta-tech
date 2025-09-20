@@ -28,8 +28,8 @@ console.table(products);
 
 function listProducts(arr) {
   for (let i = 0; i < arr.length; i++) {
-    console.log(flavor + " donuts cost $" + arr[i].cost + " each");
+    console.log(arr[i].flavor + " donuts cost $" + arr[i].cost + " each");
   } 
 } 
 
-console.table(products);
+listProducts(products);
